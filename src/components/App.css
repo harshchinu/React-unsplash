@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+.background{
+    color: hsl(198, 1%, 29%);
+    font-family: 'Gochi Hand', cursive;
+    text-align: left;
+    font-size: 130%;  
+    overflow: auto;
+}
+.m{
+    display: none;
+}
+
+
+h3{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color:#6f9a8d;
+    line-height: 1.5;
+    display: inline;
+    background-image: linear-gradient(
+          transparent 50%,
+          #e1fffe 50%,
+          #b0f8ff 85%,
+          transparent 85%,
+          transparent 100%
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      animation: animatedBackground 5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+  }
+  
+    
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:#6f9a8d;
+    line-height: 1.5;
+    display: inline;
+    background-image: linear-gradient(
+          transparent 50%,
+          #e1fffe 50%,
+          #b0f8ff 85%,
+          transparent 85%,
+          transparent 100%
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      animation: animatedBackground 5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+  }
+  
+  @keyframes animatedBackground {
+      to {
+          background-size: 100% 100%;
+      }
+  }
+ @media screen and (max-width: 768px){
+    .background{
+        display: none;
+    }
+    .m{
+        display: block;
+    }
+}
+
+
+.responsive {
+    width: 100%;
+    max-height: 700px;
+  }
