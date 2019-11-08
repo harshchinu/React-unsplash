@@ -30,11 +30,11 @@ class App extends React.Component  {
                 <Navigation userSubmit={this.onSearchSubmit}/>
              
                 
-                <img className="background responsive" src="https://source.unsplash.com/random" alt="images" />
+                <img className="background img-responsive" src="https://source.unsplash.com/random" alt="images" />
                 <h2>This is Task 1.
-                Every You Reload this page it gonna display new image through unsplash API the whole App is made on React Js </h2>
+                Every Time You Reload this page it gonna display new Background image through unsplash API the whole App is made on React Js </h2>
                 <h3> User Search Bar in Navbar to search for image and scroll down to see them</h3>
-                <img className="m responsive" src="https://source.unsplash.com/random" alt="images" />
+                <img className="m responsive img-responsive" src="https://source.unsplash.com/random" alt="images" />
                 
                 <ImageList foundImages={this.state.images} />
             </div>
